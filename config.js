@@ -11,9 +11,9 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-let wibm = moment.tz('Asia/Jakarta').format('mm')
-let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/Riyadh').format('HH')
+let wibm = moment.tz('Asia/Riyadh').format('mm')
+let wibs = moment.tz('Asia/Riyadh').format('ss')
 let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
 let wktugeneral = `${wibh}:${wibm}:${wibs}`
 
@@ -30,18 +30,18 @@ const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 
 /*============= MAIN INFO =============*/
-global.pairing = '6285864034767'
-global.owner = [['6285174269046', 'ShirokamiRyzen', true]]
+global.pairing = '966553357953'
+global.owner = [['966553357953', 'Gintoki', true]]
 global.mods = []
 global.prems = []
-global.nomorbot = '6285864034767'
-global.nomorown = '6285174269046'
+global.nomorbot = '966553357953'
+global.nomorown = '966553357953'
 
 /*============= WATERMARK =============*/
 global.readMore = readMore
-global.author = 'Shirokami Ryzen'
-global.namebot = 'Nao-MD ESM'
-global.wm = '© Nao-MD By Shirokami Ryzen'
+global.author = 'Gintoki'
+global.namebot = 'hmm'
+global.wm = '© Nao-MD By Gintoki bot'
 global.watermark = wm
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
